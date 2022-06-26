@@ -1,0 +1,170 @@
+body{
+    background-color: #fff;
+}
+/**COLORES VIOLETAS #4C2C54 #241C34 , CELESTE #EAF2FD*/
+/*Cabecera */
+.cabecera-contenedor{
+    position:fixed;
+    top: 0; /*para que funcione el position fixed*/
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo-pagina{
+    height: 8em;
+    margin: 1em;
+    margin-bottom: 0;
+}
+
+.lista-cabecera-contenedor{
+    display: flex;
+}
+
+.lista-cabecera{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    width: 100px;
+    text-align: center;
+    padding: 1em;
+    border: 2px solid #b7d0f3;
+    border-radius: 3em;
+    margin-right: 1em;
+}
+/**Primera Section*/
+.primeraSection-contenedor{
+    margin-top: 147px;
+}
+.img-computadoras{
+    display: flex;
+    width: 65%;
+    margin: 10% auto;
+}
+
+/*Section SOBRE MI*/
+.titulo-presentacion{
+    font-size: 3em;
+    color: #000;
+    text-align: center;
+    margin: 1em;
+}
+
+/*contenedor reseña cabecera e imagen*/
+.contenedor-resenha-img{
+    background-color: #b7d0f3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em;
+}
+.resenha-cabecera{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-size: 1.5em;
+    color: #000;
+    text-align: justify;
+    margin: 0 5% 0 10%;
+
+}
+.img-maxi{
+    
+    display: flex;
+    width: 11.5em;
+    border-radius: 50%;
+}
+
+/**contenedor 2da section -  sobre mi*/
+.resenha-sobreMi{
+    display: flex;
+    color: #000;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 15%;
+}
+/**3ra Section*/
+.contenedor-resenha-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*contenedor imagenes proyectos*/
+.contenedor-imagenes-proyecto{
+    margin-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.proyecto-online{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes-proyecto{
+    width: 40%;
+    margin: 1em;
+    border: 2px solid #649ef0;
+    border-radius: 24px;
+}
+.botones-proyectos{
+    text-decoration: none;
+    text-align: center;
+    width: 5em;
+    padding: 1em;
+    margin-left: 1.5em;
+    background-color: #fff;
+    border: 2px solid #b7d0f3;
+    border-radius: 24px;
+    color: #000;
+}
+.lista-cabecera:hover, .botones-proyectos:hover{
+    font-weight: bold;
+    background-color: #98bef3;
+}
+.lista-cabecera:active, .botones-proyectos:active{
+    background-color: #649ef0;
+    color: #fff;
+}
+
+/**FOOTER*/
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #649ef0;
+}
+.contenedor-logo-iconos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-footer{
+    width: 5em;
+    margin: 2em;
+}
+.text-footer{
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0 0 2em;
+    text-align: center;
+}
+.imagenes-iconos{
+    background-color: #649ef0;
+    width: 3em;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.imagenes-iconos:hover{
+    background-color: #98bef3;
+}
+.imagenes-iconos:active{
+    background-color: #b7d0f3;
+}
+.copy-footer{
+    margin: 2em 0;
+    font-size: 1.1em;
+}
