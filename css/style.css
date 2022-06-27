@@ -14,8 +14,8 @@ body{
 
 }
 .logo-pagina{
-    height: 8em;
-    margin: 1em;
+    height: 6em;
+    margin: 0 1em;
     margin-bottom: 0;
 }
 
@@ -143,7 +143,7 @@ footer{
     align-items: center;
 }
 .logo-footer{
-    width: 5em;
+    width: 3em;
     margin: 2em;
 }
 .text-footer{
@@ -167,4 +167,54 @@ footer{
 .copy-footer{
     margin: 2em 0;
     font-size: 1.1em;
+}
+@media(max-width:719px){
+.cabecera-contenedor{
+    position: static;
+    flex-direction: column;
+}
+/**Primera Section*/
+.primeraSection-contenedor{
+    margin-top: 0;
+}
+}
+
+@media (max-width:480px){
+.lista-cabecera{
+    width: 100%;
+    padding: 0.5em 0;
+    margin-bottom: 0.3em;
+}
+
+.lista-cabecera-contenedor{
+    width: 100%;
+    flex-direction: column;
+}
+.resenha-cabecera{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.img-maxi{
+    margin-top: 1.5em;
+}
+.contenedor-imagenes-proyecto{
+    margin-top: 0;
+    margin: 1em;
+}
+.proyecto-online{
+    flex-wrap: wrap;
+}
+.imagenes-proyecto{
+    width: 100%;
+}
+.imagen-encriptador{
+    order: -1;
+}
+.contenedor-logo-iconos {
+    margin-top: 1em;
+}
+.text-footer {
+    margin: 0 1em 2em;
+}
 }
