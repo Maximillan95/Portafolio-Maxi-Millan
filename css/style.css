@@ -1,5 +1,7 @@
 body{
     background-color: #fff;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 /**COLORES VIOLETAS #4C2C54 #241C34 , CELESTE #EAF2FD*/
 /*Cabecera */
@@ -45,7 +47,11 @@ body{
 }
 
 /*Section SOBRE MI*/
+#sobreMi{
+    margin-top: 0;
+}
 .titulo-presentacion{
+    font-weight: bold;
     font-size: 3em;
     color: #000;
     text-align: center;
@@ -78,6 +84,10 @@ body{
 }
 
 /**contenedor 2da section -  sobre mi*/
+.segundaSection-contenedor{
+    background-color: #b7d0f3;
+    padding: 1.5em 0;
+}
 .resenha-sobreMi{
     display: flex;
     color: #000;
@@ -114,7 +124,7 @@ body{
 .botones-proyectos{
     text-decoration: none;
     text-align: center;
-    width: 5em;
+    width: 6em;
     padding: 1em;
     margin-left: 1.5em;
     background-color: #fff;
@@ -143,7 +153,7 @@ footer{
     align-items: center;
 }
 .logo-footer{
-    width: 3em;
+    width: 3.5em;
     margin: 2em;
 }
 .text-footer{
@@ -167,6 +177,7 @@ footer{
 .copy-footer{
     margin: 2em 0;
     font-size: 1.1em;
+    font-weight: bold;
 }
 @media(max-width:719px){
 .cabecera-contenedor{
