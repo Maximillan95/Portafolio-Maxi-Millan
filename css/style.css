@@ -102,6 +102,13 @@ font-family: 'Montserrat', sans-serif;
     justify-content: center;
 }
 
+.titulo-proyecto{
+    color: #649ef0;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
 /*contenedor imagenes proyectos*/
 .contenedor-imagenes-proyecto{
     margin-top: 5em;
